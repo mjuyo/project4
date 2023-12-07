@@ -1,0 +1,171 @@
+<!--------f-----------
+
+    Project 4
+    Name: Marco Juyo
+    Date: Nov 21, 2023
+    Description: HTML markup for Project 4 - Menu Page
+
+--------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<!--<script src="index.js"></script>-->
+	<script>
+	  (function(d) {
+	    var config = {
+	      kitId: 'fzt5ssh',
+	      scriptTimeout: 3000,
+	      async: true
+	    },
+	    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+	  })(document);
+	</script>
+	<title>Chan?</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+	
+	<!-- Header -->
+	<header id="header">
+		<div id="header-wrapper">
+			<nav id="navbar">
+				<div id="container">
+					<a href="index.html" id="logo"><img src="images/logo.png" alt="Chan Logo" /></a>
+
+					<label for="toggle">&#9776;</label>
+					<input type="checkbox" id="toggle" />
+
+					<ul id="menuList">
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="menu.html">OUR MENU</a></li>
+						<li><a href="gallery.html">PHOTOS</a></li>
+						<li><a href="contact-us.html">CONTACT</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Main Section -->
+	<main id="content-our-menu">
+		
+		<div id="our-menu-content-div">
+			<section id="our-menu-intro">
+				<h1 id="our-menu-heading">MENU</h1>
+				<p>Discover the heart of genuine Chinese cuisine at CHAN, where our small, affordable menu showcases home-style dishes crafted with simplicity and authenticity. Join us for a delightful dining experience that blends traditional flavors with budget-friendly comfort.</p>
+			</section>
+		</div>
+
+		<div id="menu-wrapper">
+			<div class="menu-item">
+				<img src="images/item-1.jpg" alt="Item 1" class="menu-item-img" />
+				<div class="menu-item-text">
+					<div class="menu-item-heading">
+						<h2 class="menu-item-name">ShengJianBao 生煎包</h2>
+						<p class="menu-item-price">$12.00</p>
+					</div>
+					<p class="menu-item-desc">
+						Also known as "pan-fried buns", is a Shanghai-origin Chinese dumpling filled with minced pork and savory broth. Pan-fried for a crispy bottom and soft, steamed top, it offers a unique and flavorful experience.
+					</p>
+				</div>
+			</div>
+
+			<div class="menu-item">
+				<img src="images/item-2.jpg" alt="Item 2" class="menu-item-img" />
+				<div class="menu-item-text">
+					<div class="menu-item-heading">
+						<h2 class="menu-item-name">KungPao Chicken 宫保鸡丁</h2>
+						<p class="menu-item-price">$18.00</p>
+					</div>
+					<p class="menu-item-desc">
+						Tender diced chicken, crisp veggies, and roasted peanuts stir-fried to perfection, showcasing the authentic Sichuan blend of savory, sweet, and spicy flavors in every bite.
+					</p>
+				</div>
+			</div>
+
+			<div class="menu-item">
+				<img src="images/item-3.jpg" alt="Item 3" class="menu-item-img" />
+				<div class="menu-item-text">
+					<div class="menu-item-heading">
+						<h2 class="menu-item-name">ZhaJiangMian 炸酱面</h2>
+						<p class="menu-item-price">$18.00</p>
+					</div>
+					<p class="menu-item-desc">
+						Springy noodles adorned with a savory minced meat sauce, accentuated with aromatic spices. An authentic taste of Chinese food that promises a delightful fusion of textures and flavors.
+					</p>
+				</div>
+			</div>
+
+			<div class="menu-item">
+				<img src="images/item-4.jpg" alt="Item 4" class="menu-item-img" />
+				<div class="menu-item-text">
+					<div class="menu-item-heading">
+						<h2 class="menu-item-name">LuRouFan 卤肉饭</h2>
+						<p class="menu-item-price">$20.00</p>
+					</div>
+					<p class="menu-item-desc">
+						Succulent braised pork belly, bathed in a savory soy-based sauce with aromatic spices. A traditional Taiwanese dish that promises a blend of tender meat and flavorful rice, a taste of home in every bite.
+					</p>
+				</div>
+			</div>
+
+			<div class="menu-item">
+				<img src="images/item-5.jpg" alt="Item 5" class="menu-item-img" />
+				<div class="menu-item-text">
+					<div class="menu-item-heading">
+						<h2 class="menu-item-name">YuXiang RouSi 鱼香肉丝</h2>
+						<p class="menu-item-price">$18.00</p>
+					</div>
+					<p class="menu-item-desc">
+						Stir-fried tender pork strips with a variety of vegetables, enhanced by the captivating "fish fragrance" sauce. This dish is a dance of sweet, sour and spiciness, offering a true taste of Sichuan culinary.
+					</p>
+				</div>
+			</div>
+
+			<div class="menu-item">
+				<img src="images/item-6.jpg" alt="Item 6" class="menu-item-img" />
+				<div class="menu-item-text">
+					<div class="menu-item-heading">
+						<h2 class="menu-item-name">Sausage Fried Rice 香肠炒饭</h2>
+						<p class="menu-item-price">$16.00</p>
+					</div>
+					<p class="menu-item-desc">
+						Fragrant jasmine rice wok-tossed with succulent sausage slices. This dish is a celebration of the classic combination of seasoned rice and savory sausage, promising a flavorful experience in every bite.
+					</p>
+				</div>
+			</div>
+
+		</div>
+		
+	</main>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div id="footer-logo">
+			<img src="images/logo-black.png" alt="Black Logo">
+		</div>
+		<div id="social-logos">
+			<a href="https://www.facebook.com/Chan.HaoChi"><img src="images/facebook.png" alt="Facebook" /></a>
+			<a href="https://www.instagram.com/chan.haochi/"><img src="images/instagram.png" alt="Instagram" /></a>
+		</div>
+		<div id="footer-links">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="menu.html">MENU</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
+				<li><a href="contact-us.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<div id="footer-copyright">
+			<p>© CHAN 2023. ALL RIGHTS RESERVED.</p>
+		</div>
+	</footer>
+
+</body>
+</html>
